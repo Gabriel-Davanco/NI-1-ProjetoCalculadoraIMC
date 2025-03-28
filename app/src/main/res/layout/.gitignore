@@ -1,0 +1,7 @@
+# Diretórios do Android Studio
+.idea/
+.gradle/
+local.properties
+
+# Compilação
+/build/

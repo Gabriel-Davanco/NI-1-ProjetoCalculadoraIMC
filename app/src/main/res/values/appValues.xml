@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Cores do projeto-->
+    <color name="appVerdeClaro">#00A859</color>
+    <color name="appVerdeEscuro">#006341</color>
+    <color name="appCinzaEscuro">#4D4D4D</color>
+    <color name="appCinzaClaro">#B3B3B3</color>
+    <color name="appBranco">#FFFFFF</color>
+
+    <!--Strings do projeto-->
+
+        <!--Strings gerais-->
+        <string name="appBtnFechar">Fechar</string>
+        <string name="appTextDefault">---</string>
+        <string name="appTextPeso">Peso: </string>
+        <string name="appTextAltura">Altura: </string>
+        <string name="appTextImc">IMC: </string>
+
+        <!--Tela 1-->
+        <string name="appT1Titulo">Calculadora de IMC FECAP</string>
+        <string name="appT1BtnContinuar">Calculadora IMC</string>
+
+        <!--Tela 2-->
+        <string name="appT2TextCampoPeso"> Digite seu peso em kg</string>
+        <string name="appT2TextCampoAltura"> Digite sua altura em metros</string>
+        <string name="appT2BtnCalcular">Calcular IMC</string>
+        <string name="appT2BtnLimpar">Limpar</string>
+
+        <!--Tela Abaixo do peso-->
+        <string name="appT3Titulo">Abaixo do peso</string>
+        <string name="appT3TextPositivo">Seu corpo é único e incrível! Se você está abaixo do peso, pode ser uma boa
+            oportunidade para focar em uma alimentação equilibrada e fortalecer sua saúde.
+            Pequenos passos fazem toda a diferença! Um acompanhamento profissional pode te
+            ajudar a alcançar seu melhor equilíbrio físico e mental. Você já deu o primeiro passo ao
+            se preocupar com seu bem-estar!</string>
+
+        <!--Tela Peso ideal-->
+        <string name="appT4Titulo">Peso normal</string>
+        <string name="appT4TextPositivo">Parabéns! Seu IMC está dentro da faixa considerada ideal! Isso significa que você tem um bom
+            equilíbrio entre peso e altura. Continue cuidando do seu corpo, mantendo hábitos saudáveis e se sentindo
+            bem consigo mesmo. Saúde é um processo contínuo, então siga em frente com energia e determinação!</string>
+
+        <!--Tela Sobrepeso-->
+        <string name="appT5Titulo">Sobrepeso</string>
+        <string name="appT5TextPositivo">Você está no caminho certo ao monitorar sua saúde! O sobrepeso não define quem você é, mas pode ser
+            um lembrete para investir em hábitos mais saudáveis. Pequenas mudanças no dia a dia, como mais movimento e escolhas
+            alimentares equilibradas, fazem toda a diferença. Você tem total capacidade de atingir seus objetivos!</string>
+
+        <!--Tela Obesidade Grau I-->
+        <string name="appT6Titulo">Obesidade Grau I</string>
+        <string name="appT6TextPositivo">Seu corpo merece todo o cuidado e carinho! Se seu IMC indica obesidade grau I, isso pode ser um sinal
+            para dar mais atenção à sua saúde. O importante é lembrar que mudanças graduais trazem resultados duradouros.
+            Com determinação e apoio, você pode conquistar mais qualidade de vida e bem-estar!</string>
+
+        <!--Tela Obesidade Grau II-->
+        <string name="appT7Titulo">Obesidade Grau II</string>
+        <string name="appT7TextPositivo">Você tem um grande potencial para transformar sua saúde e bem-estar! Se seu IMC está na
+            faixa da obesidade grau II, cada passo na direção de hábitos mais saudáveis pode fazer uma enorme diferença.
+            Seu corpo é forte e capaz, e você merece cuidar dele com carinho e determinação. Não desista, você pode mais do que imagina!</string>
+
+        <!--Tela Obesidade Grau III-->
+        <string name="appT8Titulo">Obesidade Grau III</string>
+        <string name="appT8TextPositivo">Sua jornada de saúde e bem-estar é única e valiosa! Um IMC elevado pode ser um sinal para
+            buscar apoio e fazer mudanças gradativas que tragam mais vitalidade para sua vida. Nunca subestime sua
+            força e capacidade de transformação. Com cada passo, você se aproxima de uma versão ainda mais incrível de si mesmo!</string>
+
+
+</resources>
