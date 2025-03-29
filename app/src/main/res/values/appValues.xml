@@ -11,19 +11,18 @@
     <!--Strings do projeto-->
 
         <!--Strings gerais-->
-        <string name="appBtnFechar">Fechar</string>
-        <string name="appTextDefault">---</string>
-        <string name="appTextPeso">Peso: </string>
-        <string name="appTextAltura">Altura: </string>
-        <string name="appTextImc">IMC: </string>
+        <string name="appBtnFechar">Voltar</string>
+        <string name="appTextPeso">Peso: ---</string>
+        <string name="appTextAltura">Altura: ---</string>
+        <string name="appTextImc">IMC: ---</string>
 
         <!--Tela 1-->
         <string name="appT1Titulo">Calculadora de IMC FECAP</string>
         <string name="appT1BtnContinuar">Calculadora IMC</string>
 
         <!--Tela 2-->
-        <string name="appT2TextCampoPeso"> Digite seu peso em kg</string>
-        <string name="appT2TextCampoAltura"> Digite sua altura em metros</string>
+        <string name="appT2TextCampoPeso">Digite seu peso em kg</string>
+        <string name="appT2TextCampoAltura">Digite sua altura em metros</string>
         <string name="appT2BtnCalcular">Calcular IMC</string>
         <string name="appT2BtnLimpar">Limpar</string>
 

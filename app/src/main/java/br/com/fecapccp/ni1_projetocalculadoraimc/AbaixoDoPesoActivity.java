@@ -37,9 +37,9 @@ public class AbaixoDoPesoActivity extends AppCompatActivity {
         altura = bundle.getString("altura");
         imc = bundle.getString("imc");
 
-        txtT3Peso.setText(peso);
-        txtT3Altura.setText(altura);
-        txtT3Imc.setText(imc);
+        txtT3Peso.setText("Peso: " + peso);
+        txtT3Altura.setText("Altura: " + altura);
+        txtT3Imc.setText("IMC: " + imc);
 
         btnT3Fechar.setOnClickListener(view -> {
             finish();

@@ -25,6 +25,22 @@
         app:layout_constraintVertical_bias="0.97" />
 
     <TextView
+        android:id="@+id/txtT3MensagemPos"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:fontFamily="monospace"
+        android:text="@string/appT3TextPositivo"
+        android:gravity="center_vertical"
+        android:textColor="@color/appCinzaEscuro"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
         android:id="@+id/txtT3Titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,6 +50,7 @@
         android:textColor="@color/appVerdeEscuro"
         android:textSize="35sp"
         android:textStyle="bold"
+        android:background="@color/appVerdeClaro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -42,122 +59,55 @@
         app:layout_constraintVertical_bias="0.03" />
 
     <TextView
-        android:id="@+id/txtT3MensagemPos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="@string/appT3TextPositivo"
-        android:textAlignment="center"
-        android:textColor="@color/appCinzaEscuro"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
-
-    <TextView
-        android:id="@+id/txtT3TituloPeso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="@string/appTextPeso"
-        android:textAlignment="center"
-        android:textColor="@color/appVerdeEscuro"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
-
-    <TextView
-        android:id="@+id/txtT3TituloImc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txtT3Imc"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
         android:fontFamily="monospace"
         android:text="@string/appTextImc"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:textColor="@color/appVerdeEscuro"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
-
-    <TextView
-        android:id="@+id/txtT3TituloAltura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="@string/appTextAltura"
-        android:textAlignment="center"
-        android:textColor="@color/appVerdeEscuro"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.44" />
 
     <TextView
         android:id="@+id/txtT3Peso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
         android:fontFamily="monospace"
-        android:text="@string/appTextDefault"
-        android:textAlignment="center"
+        android:text="@string/appTextPeso"
+        android:textAlignment="viewStart"
         android:textColor="@color/appVerdeEscuro"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35" />
-
-    <TextView
-        android:id="@+id/txtT3Imc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="@string/appTextDefault"
-        android:textAlignment="center"
-        android:textColor="@color/appVerdeEscuro"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+        app:layout_constraintVertical_bias="0.34" />
 
     <TextView
         android:id="@+id/txtT3Altura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
         android:fontFamily="monospace"
-        android:text="@string/appTextDefault"
-        android:textAlignment="center"
+        android:text="@string/appTextAltura"
+        android:textAlignment="viewStart"
         android:textColor="@color/appVerdeEscuro"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <ImageView
         android:id="@+id/imgT3Content"
@@ -165,7 +115,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2"

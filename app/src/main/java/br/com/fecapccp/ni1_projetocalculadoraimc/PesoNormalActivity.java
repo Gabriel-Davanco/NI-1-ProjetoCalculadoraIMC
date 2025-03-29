@@ -36,9 +36,9 @@ public class PesoNormalActivity extends AppCompatActivity {
         altura = bundle.getString("altura");
         imc = bundle.getString("imc");
 
-        txtT4Peso.setText(peso);
-        txtT4Altura.setText(altura);
-        txtT4Imc.setText(imc);
+        txtT4Peso.setText("Peso: " + peso);
+        txtT4Altura.setText("Altura: " + altura);
+        txtT4Imc.setText("IMC: " + imc);
 
         btnT4Fechar.setOnClickListener(view -> {
             finish();

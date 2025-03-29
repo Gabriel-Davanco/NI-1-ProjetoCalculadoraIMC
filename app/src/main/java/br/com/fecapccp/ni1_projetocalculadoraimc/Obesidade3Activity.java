@@ -36,9 +36,9 @@ public class Obesidade3Activity extends AppCompatActivity {
         altura = bundle.getString("altura");
         imc = bundle.getString("imc");
 
-        txtT8Peso.setText(peso);
-        txtT8Altura.setText(altura);
-        txtT8Imc.setText(imc);
+        txtT8Peso.setText("Peso: " + peso);
+        txtT8Altura.setText("Altura: " + altura);
+        txtT8Imc.setText("IMC: " + imc);
 
         btnT8Fechar.setOnClickListener(view -> {
             finish();

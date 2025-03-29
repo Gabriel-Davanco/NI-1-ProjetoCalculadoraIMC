@@ -36,9 +36,9 @@ public class SobrepesoActivity extends AppCompatActivity {
         altura = bundle.getString("altura");
         imc = bundle.getString("imc");
 
-        txtT5Peso.setText(peso);
-        txtT5Altura.setText(altura);
-        txtT5Imc.setText(imc);
+        txtT5Peso.setText("Peso: " + peso);
+        txtT5Altura.setText("Altura: " + altura);
+        txtT5Imc.setText("IMC: " + imc);
 
         btnT5Fechar.setOnClickListener(view -> {
             finish();

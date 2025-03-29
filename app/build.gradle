@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'br.com.fecapccp.ni1_projetocalculadoraimc'
-    compileSdk 35
+    compileSdk 34
 
     defaultConfig {
         applicationId "br.com.fecapccp.ni1_projetocalculadoraimc"
-        minSdk 28
-        targetSdk 35
+        minSdk 26
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
