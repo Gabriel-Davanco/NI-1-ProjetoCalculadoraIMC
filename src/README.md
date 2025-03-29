@@ -1,5 +1,5 @@
 # Informações do aluno
-- Nome: Gabriel Debastiani Davanço<br>
+- Nome: Gabriel Debastiani Davanço
 - RA: 24025899
 
 # Descrição do projeto
